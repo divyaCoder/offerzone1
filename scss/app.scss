@@ -41,3 +41,227 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+.arrow-left {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 11px solid #eee;
+    float: left;
+}
+.arrow-right {
+	width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 11px solid #ACD9AC;
+    float: left;
+}
+.breadCrum{
+	background: #eee;
+    border: 1px solid white;
+    height: 40px;
+    overflow: hidden;
+ }
+	
+.base{
+	width: 32% !important;
+    display: inline-block;
+    font-size: 12px;
+    margin: -3px;
+}
+.text{
+	line-height:40px;
+	padding-left:20px;
+	text-align: center;
+}
+.previous{
+	background: #eee;
+}
+.current{
+	background: #ACD9AC;
+}
+.next{
+	background: #eee;
+}
+.greenDiv{
+	background: #ACD9AC;
+}
+.container{
+	background: white;
+	width: 100%;
+	height:	100%;
+	font-size: .9em;
+}
+.greyText{
+	line-height: 5em;
+    color: grey;
+}
+.blackText{
+	color: black;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+.borderText1{
+	border: 1px solid #DEDCDC;
+    background: #eee;
+    line-height: 3em;
+    text-align: center;
+    color: #A29F9F;
+    cursor:pointer;
+    z-index:1;
+}
+.borderText2{
+	border: 1px solid #DEDCDC;
+    background: #eee;
+    line-height: 3em;
+    text-align: center;
+    color: #A29F9F;
+    cursor:pointer;
+    z-index:1;
+}
+.borderText3{
+	border: 1px solid #DEDCDC;
+    background: #eee;
+    line-height: 3em;
+    text-align: center;
+    color: #A29F9F;
+    cursor:pointer;
+    z-index:1;
+}
+.block1{
+	padding: .3em;
+}
+.imgWrap{
+	max-width: 3em;
+    max-height: 3em;
+    padding: .1em;
+}
+.active{
+    border-style:solid;
+	border-width:1px;
+	border:2px solid #9191F0;
+    background: #B1DAF2;
+    color: black;
+}
+.borderShell{
+    height: 150px;
+    border: 1px solid #eee;
+    margin: .2em;
+    width: 23%;
+}
+.shellImage{
+    box-shadow: none;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+}
+.reviewLink{
+    border: 1px solid #eee;
+    height: 4em;
+    text-align: center;
+    background: #eee;
+    margin-bottom: 1em;
+    font-size: .8em;
+    padding: .3em;
+    color: grey;
+}
+.productPrice{
+    padding: 0;
+    margin-bottom: 1em;
+    color: black;
+    font-weight: bold;
+}
+.price{
+    MARGIN: 0;
+    padding: 0;
+}
+greyText{
+    color:grey;
+}
+.list{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    float: left;
+}
+.greenText{
+    color: #478D47;
+}
+.greenButton{
+    background: #469C74;
+}
+.whiteButton{
+    background: white;
+    border: 1px solid #469C74;
+    color: #469C74;
+}
+.addMargin{
+    margin-top: 1.5em;
+}
+.blueText{
+    color:skyblue;
+    cursor:pointer;
+}
+.ratingMain{
+    width: 75px;
+    height: 15px;
+    background: url(http://compare.buyhatke.com/images/stargrey_big.png);
+    display: inline-block;
+    zoom: 1;
+}
+.givenRating {
+    width: 33px;
+    max-width: 75px;
+    background: url(http://compare.buyhatke.com/images/staryellow_big.png);
+    height: 15px;
+    float: left;
+}
+.itemRating{
+    float: left;
+}
+.reviewLeft{
+    float: left;
+    width: 100%;
+}
+.wishList{
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    right: 40px;
+    top: 10px;
+}
+.pos{
+    position:relative;
+}
+.noDisplay{
+    display:none;
+}
+.toggle{
+    background: #eee;
+    padding: .5em;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+.selected{
+    border-bottom:3px solid #50B1D5;
+}
+.greenButton{
+    margin:0;
+}
+.countText{
+    line-height: 2em;
+    font-size: 14px;
+}
+.addPadding{
+    padding: .2em;
+}
+.addBack{
+    margin: 0px auto !important;
+    background: #eee;
+    padding: .5em;
+    text-align: center;
+}
